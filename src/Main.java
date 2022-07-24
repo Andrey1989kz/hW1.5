@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
+
         // задание 1 и 2
+        System.out.println("Задание 1 и 2");
 
-
-/*
         int[] first = new int[3];
         first[0] = 1;
         first[1] = 2;
@@ -56,11 +56,6 @@ public class Main {
 
         double[] secondThri = {1.57, 7.654, 9.986};
         for (int i = 0; i < secondThri.length; i++) {
-            */
-/*if (i == secondThri.length-1) {
-                System.out.println(secondThri[i]);
-            }else {
-                System.out.print(secondThri[i]+ ", ");}*//*
 
             int counter = secondThri.length - 1;
             while (counter > 0) {
@@ -70,22 +65,23 @@ public class Main {
             System.out.println(secondThri[0]);
             break;
         }
-*/
 
-        int[] thirdThri = {332, 333, 1028, 9961, 15};
-            /*int ary = thirdThri.length - 1;
-            while (ary > 0);{
-                System.out.print(thirdThri[ary]);
+
+        int[] thirdThriT = {332, 333, 1028, 9961, 15};
+        for (int i = 0; i < thirdThriT.length; i++) {
+            int ary = thirdThriT.length - 1;
+            while (ary > 0) ;{
+                System.out.print(thirdThriT[ary] + ", ");
                 ary--;
-            System.out.println(thirdThri[0]);
+                System.out.println(thirdThriT[0]);
             }
-*/
+        }
         //задание 4
+        System.out.println("Задание 4");
+        int[] thirdThri = {332, 333, 1028, 9961, 15};
         for (int i = 0; i < thirdThri.length; i++) {
             if (thirdThri[i] % 2 != 0) thirdThri[i]++;
-            System.out.print(thirdThri[i] + ", ");
-
-
+            System.out.print(thirdThri[i] + " ");
         }
     }
 }
